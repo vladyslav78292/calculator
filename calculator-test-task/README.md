@@ -1,4 +1,4 @@
-# calculator
+# Calculator
 
 This is a calculator, created with Vue.js
 
