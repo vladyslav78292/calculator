@@ -1,9 +1,10 @@
 {
   "name": "calculator-test-task",
   "version": "0.0.0",
+  "homepage": "https://vladyslav78292.github.io/calculator",
   "private": true,
   "scripts": {
-    "deploy": "./deploy.sh",
+    "deploy": "npm run build && gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
